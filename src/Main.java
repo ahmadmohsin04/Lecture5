@@ -28,12 +28,12 @@ public class Main {
 //        return num*prevfact;
 //    }
 
-    private static int power (int num , int p){
-        if (p==0)
-            return 1;
-        int prevpow = power(num , p-1);
-        return prevpow*num;
-    }
+//    private static int power (int num , int p){
+//        if (p==0)
+//            return 1;
+//        int prevpow = power(num , p-1);
+//        return prevpow*num;
+//    }
 
     public static void main(String[] args) {
 //        System.out.println(countDigit(123));
